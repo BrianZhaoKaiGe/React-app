@@ -1,0 +1,27 @@
+.fileNameStyle {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.fileTypeStyle {
+  margin-left: 10px;
+  width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+.fileDownloadIcon {
+  opacity: 0;
+  cursor: pointer;
+  width: 40px;
+  font-size: 18px;
+  text-align: right;
+  margin-left: 25px;
+}
+
+.fileNameStyle:hover {
+  .fileDownloadIcon {
+    opacity: 1;
+  }
+}
